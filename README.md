@@ -18,7 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+```#Developed by: M.Rishi
+#RegisterNumber:22000276
+a=int(input())
+b=int(input())
+temp=b
+a=b
+a=temp.
+```
+## OUTPUT:
+![OUTPUT](/output.png)
 
 
 ## RESULT:
