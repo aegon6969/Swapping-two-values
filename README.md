@@ -18,13 +18,14 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-```#Developed by: M.Rishi
-#RegisterNumber:22000276
-a=int(input())
-b=int(input())
-temp=b
-a=b
-a=temp.
+```python
+#Program to circulate the values of N variables.
+#Developed by: M.Rishi
+#RegisterNumber: 22000276
+def circulate():
+    l = [10, 20, 30, 40, 50, 60]
+    n = int(input())
+    print("After circulating the values are:", l[n:]+l[:n])
 ```
 ## OUTPUT:
 ![OUTPUT](/output.png)
