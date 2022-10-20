@@ -22,10 +22,10 @@ End the program
 #Program to circulate the values of N variables.
 #Developed by: M.Rishi
 #RegisterNumber: 22000276
-def circulate():
-    l = [10, 20, 30, 40, 50, 60]
-    n = int(input())
-    print("After circulating the values are:", l[n:]+l[:n])
+a = int(input())
+b = int(input())
+a,b = b,a
+print("Swapped values are:",a,b)
 ```
 ## OUTPUT:
 ![OUTPUT](/output.png)
